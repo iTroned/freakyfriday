@@ -1,0 +1,132 @@
+@font-face {
+    font-family: gravCom;
+    src: url("../Fonts/GravtacComp.ttf");
+}
+@font-face {
+    font-family: quirly;
+    src: url("../Fonts/Quirlycues.ttf");
+}
+@font-face {
+    font-family: retro;
+    src: url("../Fonts/RetrophilicItalic.ttf");
+}
+*{
+    margin: 0;
+}
+.title{
+    display: inline-block;
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    width: 30%;
+    background-color: #F7E3D0;
+    border-bottom-right-radius: 30px;
+
+
+}
+h1{
+    font-size: 40px;
+    font-family: quirly;
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.navbar{
+    display: block;
+    height: 10vh;
+    line-height: 10vh;
+    width: 100%;
+    background-color: white;
+}
+.content{
+    width: 69%;
+    text-align: center;
+    display: inline-block;
+    height: 10vh;
+    line-height: 10vh;
+
+}
+.content a{
+    color: #6B6B6B;
+    text-decoration: none;
+    background-color: #ECECEC;
+    height: 8vh;
+    line-height: 8vh;
+    display: inline-block;
+    width: 15vw;
+    border: solid #3B3B3B 2px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-right: 5px;
+    font-family: gravCom;
+    letter-spacing: 2px;
+}
+.content a:hover{
+    border-color: white;
+}
+.icons{
+    display: block;
+    width: 30%;
+    height: 7vh;
+    padding-top: 1vh;
+    align-content: center;
+    text-align: center;
+
+}
+.icons a{
+    text-decoration: none;
+}
+.inside{
+    display: inline-block;
+}
+.icons img{
+    width: 3vw;
+    height: auto;
+    padding-left: .5vw;
+    padding-right: .5vw;
+}
+
+.midcontent{
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+}
+.midcontent img {
+    height: 80%;
+    width: auto;
+    display: inline-block;
+    border: solid 2px #3A3A3A;
+
+}
+.quote p{
+    font-family: "Times New Roman";
+    font-size: 35px;
+}
+.quote{
+    border-bottom: #3A3A3A solid 2px;
+    width: 35vw;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20vh;
+    margin-right: 5vw;
+}
+.quoteholder{
+    display: inline-block;
+
+}
+
+footer{
+    font-family: gravCom;
+    letter-spacing: 1px;
+    height: 7vh;
+    display: block;
+    line-height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    border-top: #3A3A3A solid 1px;
+
+}
+footer p{
+    display: inline-block;
+    color: #3A3A3A;
+
+}
