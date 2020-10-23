@@ -1,14 +1,14 @@
 @font-face {
     font-family: gravCom;
-    src: url("../Fonts/GravtacComp.ttf");
+    src: url("GravtacComp.ttf");
 }
 @font-face {
     font-family: quirly;
-    src: url("../Fonts/Quirlycues.ttf");
+    src: url("Quirlycues.ttf");
 }
 @font-face {
     font-family: retro;
-    src: url("../Fonts/RetrophilicItalic.ttf");
+    src: url("RetrophilicItalic.ttf");
 }
 *{
     margin: 0;
